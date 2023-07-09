@@ -1,0 +1,22 @@
+{
+  "homepage": "https://hakimmurphy.github.io/cssplayground",
+  "name": "perspectiveplaygroundfull",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+	  "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "gh-pages": "^5.0.0",
+    "vite": "^4.4.0"
+  }
+}
