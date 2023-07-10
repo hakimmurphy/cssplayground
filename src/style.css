@@ -17,10 +17,12 @@ html {
     padding: 0;
     margin: 0;
   }
+
   body {
     font-family: sans-serif;
     height: 100%;
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
     background: var(--clr-blue);
     overflow: hidden;
     display: flex; 
@@ -34,6 +36,7 @@ html {
     font-size: 40px;
     margin: 20px;
   }
+
   main {
     display: flex;
     justify-content: space-around;
@@ -44,23 +47,28 @@ html {
     font-family: monospace, sans-serif;
     font-size: 22px;
   }
+
   main label{
     display: block;
   }
+
   main input[type="range"] {
     display: block;
     margin-bottom: 10px;
     width: 200px;
     accent-color: var(--clr-red);
   }
+
   section.settings {
     width: 50%;
     z-index: 2;
   }
+
   .box-container {
     padding: 50px;
     border: 1px solid var(--clr-red);
   }
+
   .box {
     width: 150px;
     height: 150px;
