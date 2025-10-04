@@ -45,14 +45,14 @@ npm run preview
 └─ vite.config.js
 ```
 
---
+---
 
 ## 🧪 How to add a new CSS demo
 1. Create a component in src/ (e.g., src/demos/GridGallery.vue).
 2. Add your markup + styles (scoped or global).
 3. Register it in your root view/router and link it from a simple index page.
 
---
+---
 
 ## 🛣️ Ideas / Roadmap
 - Flexbox & Grid galleries (gap, minmax, auto-fit/auto-fill)
@@ -60,12 +60,12 @@ npm run preview
 - CSS variables & themes (dark/light)
 - Responsive utilities & container queries
 
---
+---
 
 ## 📄 License
 MIT
 
---
+---
 
 ## 🗣️ Author
 Hakim Murphy
